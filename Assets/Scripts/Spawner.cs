@@ -51,7 +51,7 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < countCubes; i++)
         {
             Cube newCube = CreateCube(cube, cube.transform.position);
-            newCube.Initialization(scale, chanceToSplite);
+            newCube.Initialization(scale, chanceToSplite, this);
             cubes.Add(newCube);
         }
 

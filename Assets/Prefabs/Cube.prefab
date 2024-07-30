@@ -163,4 +163,4 @@ MonoBehaviour:
   _explosionRadius: 40
   _cube: {fileID: 3916846027880519176}
   _spawner: {fileID: 5963007498593970735, guid: def7450b89847c24791eb79f1254fded, type: 3}
-  _force: 1000
+  _force: 111
